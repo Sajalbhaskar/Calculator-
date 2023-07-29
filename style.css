@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: #c6d8dd;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Tektur, cursive;
+}
+
+.calculator {
+    background-color: #32323c;
+    padding: 23px;
+    border-radius: 15px;
+}
+.btn{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    cursor: pointer;
+    border: 0;
+    outline:0 ;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgb(60, 71, 79) ;
+    border-radius: 14px;
+    background: transparent;
+    color: white;
+}
+form .display{
+    display: flex;
+    /* justify-content: flex-end; */
+    
+}
+form input{
+    margin: 20px 0px;
+    width: 329px;
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    background: transparent;
+    color: white;
+}
+.equal{
+    width: 140px;
+}
+.operator{
+    color: aqua;
+}
